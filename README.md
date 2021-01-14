@@ -13,7 +13,7 @@
  Instalar o mongodb na porta 27017, pode ser via docker ou localmente.
  
  <h4>4º</h4>
- Copiar e colar o arquivo <i>.env.example</i>, em seguida renomeá-lo para <i>.env</i>. Nele tem algumas variáveis de ambiente necessárias para rodar o projeto. As variáveis: <i>AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY e AWS_DEFAULT_REGION</i>, não precisam ser configuradas, a não ser que fosse preciso salvar os arquivos de imagem dos usuários na AWS.
+ Copiar e colar o arquivo <i>.env.example</i>, em seguida renomeá-lo para <i>.env</i>. Nele tem algumas variáveis de ambiente necessárias para rodar o projeto. As variáveis: <i>AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY e AWS_DEFAULT_REGION</i>, não precisam ser configuradas, a não ser que fosse preciso salvar os arquivos de imagem dos usuários na AWS. E fazer a mesma coisa com o arquivo <i>ormconfig.example.json</i>, e renomeá-lo para <i>ormconfig.json</i>
 
  <h4>5º</h4>
  Executar o projeto.

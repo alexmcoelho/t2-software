@@ -1,0 +1,13 @@
+[
+  {
+    "name": "mongo",
+    "type": "mongodb",
+    "host": "localhost",
+    "port": 27017,
+    "database": "t2_software",
+    "useUnifiedTopology": true,
+    "entities": [
+      "./src/modules/**/infra/typeorm/entities/*.ts"
+    ]
+  }
+]
