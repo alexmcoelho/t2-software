@@ -13,7 +13,7 @@
  Instalar o mongodb na porta 27017, pode ser via docker ou localmente.
  
  <h4>4º</h4>
- Copiar e cocar o arquivo <i>.env.example</i>, nele tem algumas variáveis de ambiente necessárias para rodar o projeto. As variáveis: <i>AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY e AWS_DEFAULT_REGION</i>, não precisam ser configuradas a não ser que fosse preciso salvar os arquivos na AWS.
+ Copiar e colar o arquivo <i>.env.example</i>, em seguida renomeá-lo para <i>.env</i>. Nele tem algumas variáveis de ambiente necessárias para rodar o projeto. As variáveis: <i>AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY e AWS_DEFAULT_REGION</i>, não precisam ser configuradas, a não ser que fosse preciso salvar os arquivos de imagem dos usuários na AWS.
 
  <h4>5º</h4>
  Executar o projeto.
@@ -39,4 +39,5 @@ Para testar a aplicação, basta usar o seguinte comando.
 
 <h4>Observações</h4>
 1 - Para criar um usuário basta clicar no link disponível na página inicial, chamado Criar conta, este por sua vez irá direcionar para a página onde é possível criar um usuário;
+<br/>
 2 - Para trocar o avatar do usuário basta clicar sobre o nome do usuário na tela inicial (dashboard), em seguida irá abrir uma tela onde é possível trocar a imagem.
